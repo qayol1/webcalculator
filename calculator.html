@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+<script src="script.js"></script>
+    <textarea id="result" rows="1" cols="10"></textarea>
+    <br>
+    <button type="button" name="c" value="c" id="c" onclick="clear_text()">C</button>
+    <br>
+    <button type="button" name="1" value="1" id="1" onclick="print_to_text('1')">1</button>
+    <button type="button" name="2" value="2" id="2" onclick="print_to_text('2')">2</button>
+    <button type="button" name="3" value="3" id="3" onclick="print_to_text('3')">3</button>
+    <button type="button" name="/" value="/" id="div" onclick="set_operator('/')">/</button>
+    <br>
+    <button type="button" name="4" value="4" id="4" onclick="print_to_text('4')">4</button>
+    <button type="button" name="5" value="5" id="5" onclick="print_to_text('5')">5</button>
+    <button type="button" name="6" value="6" id="6" onclick="print_to_text('6')">6</button>
+    <button type="button" name="*" value="*" id="multiply" onclick="set_operator('*')">*</button>
+    <br>
+    <button type="button" name="7" value="7" id="7" onclick="print_to_text('7')">7</button>
+    <button type="button" name="8" value="8" id="8" onclick="print_to_text('8')">8</button>
+    <button type="button" name="9" value="9" id="9" onclick="print_to_text('9')">9</button>
+    <button type="button" name="+" value="+" id="plus" onclick="set_operator('+')">+</button>
+    <br>
+    <button type="button" name="0" value="0" id="0" onclick="print_to_text('0')">0</button>
+    <button type="button" name="." value="." id="." onclick="print_dot()">.</button>
+    <button type="button" name="=" value="=" id="equal" onclick="calculate()">=</button>
+    <button type="button" name="-" value="-" id="minus" onclick="set_operator('-')">-</button>
+
+</body>
+
+</html>
